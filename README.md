@@ -78,6 +78,8 @@ see (Mapbox instructions)[https://docs.mapbox.com/android/navigation/v2/guides/g
 ```
 
 
+### Add mapbox tokens to `android/app/src/main/AndroidManifest.xml` and `ios/rnmbxnavigation_rn71demo/Info.plist`:
+
 
 
 
