@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@homee/react-native-mapbox-navigation": "mfazekas/react-native-mapbox-navigation#ndk23plus",
     "react": "18.2.0",
     "react-native": "0.71.4"
   },

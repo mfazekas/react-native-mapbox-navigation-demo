@@ -1199,6 +1199,10 @@
   dependencies:
     "@hapi/hoek" "^9.0.0"
 
+"@homee/react-native-mapbox-navigation@mfazekas/react-native-mapbox-navigation#ndk23plus":
+  version "2.0.2"
+  resolved "https://codeload.github.com/mfazekas/react-native-mapbox-navigation/tar.gz/9aa80cb5cccd39c2f6c4f14a77eb126307f53d15"
+
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.14.tgz#d78e481a039f7566ecc9660b4ea7fe6b1fec442b"
