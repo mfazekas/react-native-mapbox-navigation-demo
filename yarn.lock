@@ -1201,7 +1201,7 @@
 
 "@homee/react-native-mapbox-navigation@mfazekas/react-native-mapbox-navigation#ndk23plus":
   version "2.0.2"
-  resolved "https://codeload.github.com/mfazekas/react-native-mapbox-navigation/tar.gz/9aa80cb5cccd39c2f6c4f14a77eb126307f53d15"
+  resolved "https://codeload.github.com/mfazekas/react-native-mapbox-navigation/tar.gz/0955ebef7e5c75ca4f12cef046378205ab8e3969"
 
 "@humanwhocodes/config-array@^0.11.14":
   version "0.11.14"
