@@ -23,6 +23,15 @@ cd ..
 yarn ios # or build rnmbxnavigation_rn71demo.xcworkspace
 ```
 
+Add audio and location background modes to Info.plist:
+```xml
+  <key>UIBackgroundModes</key>
+  <array>
+    <string>audio</string>
+    <string>location</string>
+  </array>
+```
+
 ### Configure the project for Android
 
 Make sure your `~/.gradle/gradle.properties` has your mapbox download token. (follow instructions)[https://docs.mapbox.com/android/maps/guides/install/#configure-your-secret-token].
