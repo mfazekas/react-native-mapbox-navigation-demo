@@ -64,8 +64,17 @@ allprojects {
 }
 ```
 
-```
 
+Add location permission to manifest `android/app/src/main/AndroidManifest.xml`
+see (Mapbox instructions)[https://docs.mapbox.com/android/navigation/v2/guides/get-started/install/#configure-permissions] 
+```xml
+<manifest ... >
+  <!-- Always include this permission -->
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+  <!-- Include only if your app benefits from precise location access. -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>
 ```
 
 
