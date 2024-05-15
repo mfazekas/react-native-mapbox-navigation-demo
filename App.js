@@ -52,7 +52,7 @@ export const Configuration = ({
   );
 };
 
-export const Navigation = ({from, to, simulated}) => {
+export const Navigation = ({from, to, simulated, onCancelNavigation}) => {
   console.log(' => Navigate from:', from, 'to:', to, 'simulate:', simulated);
   return (
     <View style={styles.container}>
@@ -91,6 +91,7 @@ export const Navigation = ({from, to, simulated}) => {
           // or canceled via the OS system tray on android.
           // Do whatever you need to here.
           console.log('onCancelNavigation =>');
+          onCancelNavigation();
         }}
         onArrive={() => {
           // Called when you arrive at the destination.
@@ -123,6 +124,7 @@ export default function App() {
         from={settings.from}
         to={settings.to}
         simulated={settings.simulated}
+        onCancelNavigation={() => setConfigured(false)}
       />
     );
   } else {
